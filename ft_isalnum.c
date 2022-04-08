@@ -6,7 +6,7 @@
 /*   By: lucferna <lucferna@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 10:45:21 by lucferna          #+#    #+#             */
-/*   Updated: 2021/09/02 10:45:23 by lucferna         ###   ########.fr       */
+/*   Updated: 2022/04/06 05:12:27 by lucferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,4 @@ int	ft_isalnum(int c)
 		return (0);
 	return (1);
 }
+

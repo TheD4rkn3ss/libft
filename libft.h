@@ -6,7 +6,7 @@
 /*   By: lucferna <lucferna@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/14 16:48:17 by lucferna          #+#    #+#             */
-/*   Updated: 2021/09/18 12:03:33 by lucferna         ###   ########.fr       */
+/*   Updated: 2022/04/08 20:49:40 by lucferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -201,14 +201,6 @@ void		ft_putendl_fd(char *s, int fd);
  * @return A pointer to an array of strings resulting from the split.
  */
 char		**ft_split(char const *s, char c);
-
-/*
- * @brief Sorts the given string pointed by '*str' from lower to higher value.
- *
- * @param str A pointer to the string.
- * @param size The size of the string.
- */
-void		ft_sortint(int *str, int size);
 
 /*
  * @brief Search for the character 'c' in the given string '*ptr'.
